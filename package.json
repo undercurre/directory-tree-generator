@@ -1,5 +1,5 @@
 {
-  "name": "directory-tree-generator",
+  "name": "lrh-directory-tree",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.cjs.js",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-terser":               "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^20.12.10",
     "rollup": "^4.17.2",
