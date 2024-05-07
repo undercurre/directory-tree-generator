@@ -1,0 +1,37 @@
+{
+  "name": "directory-tree-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "generate-tree": "lib/index.cjs.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.12.10",
+    "rollup": "^4.17.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "ignore": "^5.3.1"
+  }
+}
